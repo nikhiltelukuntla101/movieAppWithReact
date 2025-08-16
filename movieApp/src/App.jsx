@@ -1,13 +1,13 @@
-import "./css/App.css"; // if inside src/css/
+import "./css/App.css";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
-import Favourites from "./pages/Favourites";
+import Favourites from "./pages/favourites";
 
 import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <div className="main-content">
       <NavBar />
       <main className="main-content">
         <Routes>
