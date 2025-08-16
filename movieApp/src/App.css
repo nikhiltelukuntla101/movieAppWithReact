@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.movie-list {
+  display: flex;
+  flex-direction: row; /* align cards side by side */
+  gap: 10px; /* space between cards */
+  justify-content: center; /* optional: center them */
+}
+
+.movie-card {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column; /* keep poster + title stacked */
+  width: 150px;
+  margin: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+}
